@@ -169,8 +169,16 @@ footer {
     display: none;
   }
 
-  .product {
-    width: 47%;
+  .product-3 {
+    display: none;
+  }
+
+  .products {
+    justify-content: space-between;
+  }
+
+  .product, .product-2 {
+    min-width: 47%;
   }
 
   .contact {
@@ -217,7 +225,6 @@ footer {
   }
 
   .box h1 {
-    padding-left: 2rem;
     font-size: 1rem;
     font-weight: bold;
   }
@@ -235,7 +242,20 @@ footer {
     margin: 0.5rem auto;
   }
 
+  .title {
+    margin-bottom: 0.5rem;
+  }
+
   footer {
     text-align: center;
   }
+
+  .product-3, .product-2 {
+    display: none;
+  }
+
+  .products {
+    justify-content: center;
+  }
+
 }
