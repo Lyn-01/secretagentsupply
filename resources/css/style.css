@@ -94,7 +94,7 @@ li {
   margin: 3rem 0px 0px;
 }
 
-.product {
+.product, .product-2, .product-3 {
   width: 30%;
 }
 
